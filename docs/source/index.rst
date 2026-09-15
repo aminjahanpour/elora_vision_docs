@@ -1,25 +1,22 @@
 Welcome to Elora Vision Project documentation!
 ===================================
 
+This project is all about **efficient transmission of encrypted data over long distances** while keeping the costs as low as possible.
 
-
-This project is all about **efficient transmission of encrypted image data over long distances** while keeping the costs as low as possible.
-
-
-
-The technology allows for real-time monitoring, remote imaging, and sharing of images in areas where other forms of
+The technology enables real-time monitoring, internet protocol over radio, and image sharing in areas where other forms of
 communication are inaccessible. It can play a vital role in various fields
 such as remote sensing, emergency response, and off-grid exploration, where the secure transmission of visual data can provide
 crucial insights and aid in decision-making processes.
 
 All communications made in the network are encrypted. Furthermore, the network design is secure and resistant to malicious interference.
+Internet protocol has also been tested on this platform.
 
 .. image:: ./images/layout.png
 
 
 
 
-When scaled, this technology can play a significant role to help people who need it.
+When scaled, this technology can play a significant role in helping people who need it.
 **That is why I did my best to keep hardware manufacturing costs as low as possible.**
 This enables affordability and accessibility of the technology, making it more widely available to a larger population.
 
@@ -48,14 +45,3 @@ Contents
    apps
    goober
    imageprocessing
-
-
-
-
-
-
-
-
-
-
-

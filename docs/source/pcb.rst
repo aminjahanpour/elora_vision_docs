@@ -1,13 +1,13 @@
 The PCB
 ==========
 
-You need a PCB for each Sender Unit and Receiver Unit. You have two choice for the PCB.
+You need a PCB for each Sender Unit and Receiver Unit. You have two choices for the PCB.
 
 - You can have the PCB manufactured and shipped to you by a PCB manufacturer.
 
-- You can either build a PCB from some basic parts as explained in below.
+- Or you can build a PCB from some basic parts as explained below.
 
-Both methods are discussed in this page.
+Both methods are discussed on this page.
 
 
 |
@@ -44,8 +44,8 @@ It is energy-efficient yet provides enough processing power for our Elora Vision
 
 **LoRa**
 
-I chose *RX1276* as for the LoRa module because this is perhaps the most common one in North America where I live.
-The design targets 915 MHz abiding to the legal frequency bands in Canada.
+I chose *RX1276* as the LoRa module because this is perhaps the most common one in North America where I live.
+The design targets 915 MHz, abiding by the legal frequency bands in Canada.
 I went with the IPEX antenna connection because it allows for more flexibility in antenna placement on the UAV.
 The radio circuitry is based on the below sources:
 
@@ -83,7 +83,7 @@ Here are the ingredients needed for one PCB.
 4) A breadboard to host the board and the radio module if you wish.
 
 As for the antenna, simply solder a wire of length 9.15 cm to the LoRa board.
-Now all you have to do is the wiring as described in below.
+Now all you have to do is the wiring as described below.
 
 =========   ========
 Board Pin   LoRa Pin
@@ -181,10 +181,3 @@ You can simply plug the linker, choose ST-Link on the program, press connect and
 
 .. note::
     Same exact firmware is used on all PCBs (sender or receiver).
-
-
-
-
-
-
-

@@ -4,7 +4,7 @@ Workflow
 Network layout
 --------------
 
-This project builds around LoRa module which is a low price and long range radio module.
+This project builds around the LoRa module, which is a low-price and long-range radio module.
 
 .. image:: ./images/layout.png
 
@@ -18,7 +18,7 @@ Here is the flow of information from the Sender Unit to the Receiver Unit(s) for
 
 
 
-You webcam or the Android Phone in the Sender Unit takes a picture. If you are using a phone, GPS info are also acquired. Next, the Elora Vision app performs following operations on the raw image data:
+Your webcam or the Android Phone in the Sender Unit takes a picture. If you are using a phone, GPS info is also acquired. Next, the Elora Vision app performs the following operations on the raw image data:
 
 - run image processing algorithms to mask out the less informative blocks of the image (read more about the algorithm here in the :ref:`image_processing` page).
 - save the image as JPEG
@@ -27,12 +27,12 @@ You webcam or the Android Phone in the Sender Unit takes a picture. If you are u
 
 The app then sends the payload to the PCB via the USB Cable.
 The PCB, in turn, transmits the encrypted payload over the on-board LoRa radio module.
-At this point, the Sender Unit has finished its job. Now it's the receiver Unit's turn.
+At this point, the Sender Unit has finished its job. Now it's the Receiver Unit's turn.
 The on-board LoRa radio module on your Receiver Unit's PCB picks up the signals from the Sender Unit.
 The PCB collects all the encrypted data transmitted by the Sender Unit.
-Once ready, the PCB sends the assembled payload to host device.
+Once ready, the PCB sends the assembled payload to the host device.
 The Elora Vision app on the Receiver Unit host device decrypts the payload and displays the image (and GPS if available) on the screen.
-Finally the Elora Vision app archives all the received information for future references and reports.
+Finally, the Elora Vision app archives all the received information for future references and reports.
 
 
 
@@ -44,10 +44,3 @@ Finally the Elora Vision app archives all the received information for future re
     Also similar to the IP mechanism used on the Internet protocol, a payload stores addresses of its sender and the receivers in its header.
     These are all set up automatically for you so don't worry about them. Just know that there will be no interference with other
     nearby users even if you are all on the same exact frequency.
-
-
-
-
-
-
-

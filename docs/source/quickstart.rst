@@ -14,7 +14,7 @@ What I call a Unit in here is a set simply made of below three items connected t
     - if you are using a computer as for the host device, you need a regular USB cable.
     - if you are using an Android phone, you need a both a regular USB cable and a USB OTG cable. A USB OTG cable turns your Android phone into a host device.
 
-3- A Goober
+3- A PCB
 
 Now that we know what I mean by a Unit, let's go ahead to define Sender Unit and Receiver Unit.
 
@@ -71,7 +71,7 @@ A mobile Sender Unit normally uses a phone. In this case this phone does some he
 This is not the case for the android phone in the Receiver Unit. It can be an older device.
 
 A common use case would be taking photoes with a drone. This mobile Sender Unit is attached to the drone frame for example.
-However, it works completely separate from the drone itself. The Goober is powered by the phone battery via the USB cable (has nothing to do with the drone battery).
+However, it works completely separate from the drone itself. The PCB is powered by the phone battery via the USB cable (has nothing to do with the drone battery).
 So everything works so long as the android phone battery is alive.
 The camera of this phone needs to face toward the ground while the drone is flying.
 Remember that LoRa radio module long range capability is actualized only on a direct line of sight.
@@ -87,7 +87,7 @@ The you need to run on your computer is written in Python and runs on any operat
 
 
 .. note::
-    * The same Goober could be used in the Sender Unit or in the Receiver Unit.
+    * The same PCB could be used in the Sender Unit or in the Receiver Unit.
     * The same android app (Elora Vision app) is installed on both Sender Unit and Receiver Unit phones.
     * One Sender Unit can feed image data to many Receiver Units so long as they all share the same encryption key.
 
@@ -140,7 +140,7 @@ After having everything set up, here are steps to actually starting broadcasting
 
 3- Tap on *Sender Unit*
 
-4- Tap on *Sync with Goober*
+4- Tap on *Sync with PCB*
 
 5- Tap on *Start Camera*
 
@@ -154,7 +154,7 @@ That's it. You are done with the Sender Unit. The data are already being transmi
 
 7- Tap on *Receiver Unit*
 
-8 - Tap on *Sync with Goober*
+8 - Tap on *Sync with PCB*
 
 9- Tap on *Play*
 

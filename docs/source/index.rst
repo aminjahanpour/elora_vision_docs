@@ -24,8 +24,8 @@ When scaled, this technology can play a significant role to help people who need
 This enables affordability and accessibility of the technology, making it more widely available to a larger population.
 
 This open-source / open-hardware project is built around the cheaper and more modest components available in the market.
-All one would need to benefit from this technology are two computers (or android phones), some USB cables and two Goobers.
-You can build a Goober by yourself from some basic parts or order `this PCB <https://github.com/aminjahanpour/elora_vision_pcb>`_ to be manufactured and shipped to you by `JLCPCB <https://jlcpcb.com/>`_ or any other PCB manufacturer.
+All one would need to benefit from this technology are two computers (or android phones), some USB cables and two PCBs.
+You can build a PCB by yourself from some basic parts or order `this PCB <https://github.com/aminjahanpour/elora_vision_pcb>`_ to be manufactured and shipped to you by `JLCPCB <https://jlcpcb.com/>`_ or any other PCB manufacturer.
 
 
 .. note::
